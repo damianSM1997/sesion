@@ -1,0 +1,105 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: cursive;
+}
+
+h2{
+	color: #555;
+	font-size: 20px;
+	padding: 20px;
+
+
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	background: url(../img/fondo1.jpg);
+	position: fixed;
+	box-shadow: 1px 1px 10px #000;
+
+}
+
+header section{
+	width: 960px;
+	margin: auto;
+}
+
+header section h1{
+	padding: 10px;
+	color: #fff;
+}
+
+header section form{
+	float: right;
+	margin-top: -40px;
+}
+
+
+header section form input{
+	height: 30px;
+	border-radius: 10%;
+}
+
+header section span{
+	color: red;
+	float: right;
+	font-size: 15px;
+	margin-top: -15;
+	padding: 10px;
+	background: #fff;
+	border-radius: 10%;
+
+	border: 5px solid black;
+}
+
+header section form.error input{
+	border: 5px solid red; 
+	
+}
+
+header section form.sesion input{
+	border: 5px solid blue; 
+	
+}
+
+#inicio{
+	background: url(../img/fondo.jpg)no-repeat center fixed;
+	height: 400px;
+	background-size: cover;
+	padding: 100px 0px 50px 0px;
+}
+
+
+#inicio section{
+	width: 960px;
+	margin: auto;
+}
+
+#inicio section form{
+	width: 300px;
+	background: #fff;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	float: right;
+
+	border-radius: 5%;
+}
+
+#inicio section form input{
+	width: 90%;
+	height: 30px;
+	margin-bottom: 15px;
+
+}
+
+#inicio section form span{
+	color: red;
+}
+
+
+#inicio	section form.requerido{
+	border: 5px solid red;
+}
+
